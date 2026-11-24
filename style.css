@@ -7,3 +7,9 @@
   object-fit: cover;
   filter: brightness(0.6);
 }
+.carousel-item:first-child .c-img {
+  object-position: center 30%;
+}
+.carousel-item:nth-child(2) .c-img {
+  object-position: center 70%;
+}
