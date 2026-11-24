@@ -13,3 +13,7 @@
 .carousel-item:nth-child(2) .c-img {
   object-position: center 70%;
 }
+.overview {
+  height: 180px;
+  background-color: #d3dae1;
+}
