@@ -57,98 +57,12 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-  </body>
-  <main>
-    <div class="modal fade" tabindex="-1" id="booking-modal">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Book a guide</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <form action="#">
-              <div class="row g-2">
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      id="email1"
-                      type="email1"
-                      class="form-control"
-                      placeholder="Your email"
-                    />
-                    <label for="email">Email address</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <select id="select1" class="form-select">
-                      <option>
-                        Mount Abert Edwards | altitude: 2,093 m | distance: 32
-                        km| duration: 2 days / 1 nights | price per person: $200
-                        CAD
-                      </option>
-                      <option>
-                        Mout Myra | altitude: 1,803 m | distance: 14 km |
-                        duration: 3 days / 2 nights | price per person: $255 CAD
-                      </option>
-                      <option>
-                        Kings Peak | altitude: 2,065 m | distance: 14.5 km |
-                        duration: 2 days / 2 nights | price per person: $325 CAD
-                      </option>
-                    </select>
-                    <label for="select1">Choose a Hike</label>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Checkout</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="hero-carousel" class="carousel slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="##hero-carousel"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="##hero-carousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="##hero-carousel"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="modal fade" tabindex="-1" id="booking-modal-1">
-        <div class="modal-dialog">
+    <main>
+      <div class="modal fade" tabindex="-1" id="booking-modal">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Book a tour</h5>
+              <h5 class="modal-title">Book a guide</h5>
               <button
                 type="button"
                 class="btn-close"
@@ -158,14 +72,40 @@
             </div>
             <div class="modal-body">
               <form action="#">
-                <div class="form-floating">
-                  <input
-                    id="email2"
-                    type="email"
-                    class="form-control"
-                    placeholder="Your email"
-                  />
-                  <label for="email2">Email address</label>
+                <div class="row g-2">
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        id="email1"
+                        type="email1"
+                        class="form-control"
+                        placeholder="Your email"
+                      />
+                      <label for="email">Email address</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <select id="select1" class="form-select">
+                        <option>
+                          Mount Abert Edwards | altitude: 2,093 m | distance: 32
+                          km| duration: 2 days / 1 nights | price per person:
+                          $200 CAD
+                        </option>
+                        <option>
+                          Mout Myra | altitude: 1,803 m | distance: 14 km |
+                          duration: 3 days / 2 nights | price per person: $255
+                          CAD
+                        </option>
+                        <option>
+                          Kings Peak | altitude: 2,065 m | distance: 14.5 km |
+                          duration: 2 days / 2 nights | price per person: $325
+                          CAD
+                        </option>
+                      </select>
+                      <label for="select1">Choose a Hike</label>
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
@@ -182,54 +122,34 @@
           </div>
         </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img
-            src="images/exploring-strathcona.png"
-            class="d-block w-100 c-img"
-            alt="Hiker overlooking the mountains of Strathcona Provincial Park"
-          />
-          <div class="carousel-caption top-0 mt-4">
-            <p class="fs-3 text-uppercase mt-5">Adventure starts here</p>
-            <h1 class="display-1 fw-bolder text-capitalize">
-              Hike Strathcona Park
-            </h1>
-            <button
-              type="button"
-              class="btn btn-primary px-4 py-2 fs-5 mt-5"
-              data-bs-toggle="modal"
-              data-bs-target="#booking-modal"
-            >
-              Book a guide
-            </button>
-          </div>
+      <div id="hero-carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="##hero-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="##hero-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="##hero-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
-        <div class="carousel-item c-item">
-          <img
-            src="images/Road_Trip_By_Car.jpg"
-            class="d-block w-100 c-img"
-            alt="Scenic road trip through a mountain landscape"
-          />
-          <div class="carousel-caption top-0 mt-4">
-            <p class="fs-3 text-uppercase mt-5">Discover the great outdoors</p>
-            <h1 class="display-1 fw-bolder text-capitalize">
-              Explore Wild Waters
-            </h1>
-            <button
-              type="button"
-              class="btn btn-primary px-4 py-2 fs-5 mt-5"
-              data-bs-toggle="modal"
-              data-bs-target="#booking-modal"
-            >
-              Book an adventure
-            </button>
-          </div>
-        </div>
-        <div class="modal fade" tabindex="-1" id="booking-modal-3">
+        <div class="modal fade" tabindex="-1" id="booking-modal-1">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title">Book accomodations</h5>
+                <h5 class="modal-title">Book a tour</h5>
                 <button
                   type="button"
                   class="btn-close"
@@ -241,12 +161,12 @@
                 <form action="#">
                   <div class="form-floating">
                     <input
-                      id="email3"
+                      id="email2"
                       type="email"
                       class="form-control"
                       placeholder="Your email"
                     />
-                    <label for="email3">Email address</label>
+                    <label for="email2">Email address</label>
                   </div>
                 </form>
               </div>
@@ -263,51 +183,139 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item c-item">
-          <img
-            src="images/holberg rd.png"
-            class="d-block w-100 c-img"
-            alt="Scenic road through the wilderness near Vancouver Island North"
-          />
-          <div class="carousel-caption top-0 mt-4">
-            <p class="fs-3 text-uppercase mt-5">Take the road less traveled</p>
-            <h1 class="display-1 fw-bolder text-capitalize">
-              North Vancouver Island
-            </h1>
-            <button
-              type="button"
-              class="btn btn-primary px-4 py-2 fs-5 mt-5"
-              data-bs-toggle="modal"
-              data-bs-target="#booking-modal"
-            >
-              Explore destinations
-            </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="images/exploring-strathcona.png"
+              class="d-block w-100 c-img"
+              alt="Hiker overlooking the mountains of Strathcona Provincial Park"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <p class="fs-3 text-uppercase mt-5">Adventure starts here</p>
+              <h1 class="display-1 fw-bolder text-capitalize">
+                Hike Strathcona Park
+              </h1>
+              <button
+                type="button"
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Book a guide
+              </button>
+            </div>
           </div>
+          <div class="carousel-item c-item">
+            <img
+              src="images/Road_Trip_By_Car.jpg"
+              class="d-block w-100 c-img"
+              alt="Scenic road trip through a mountain landscape"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <p class="fs-3 text-uppercase mt-5">
+                Discover the great outdoors
+              </p>
+              <h1 class="display-1 fw-bolder text-capitalize">
+                Explore Wild Waters
+              </h1>
+              <button
+                type="button"
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Book an adventure
+              </button>
+            </div>
+          </div>
+          <div class="modal fade" tabindex="-1" id="booking-modal-3">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Book accomodations</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-floating">
+                      <input
+                        id="email3"
+                        type="email"
+                        class="form-control"
+                        placeholder="Your email"
+                      />
+                      <label for="email3">Email address</label>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Checkout
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="images/holberg rd.png"
+              class="d-block w-100 c-img"
+              alt="Scenic road through the wilderness near Vancouver Island North"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <p class="fs-3 text-uppercase mt-5">
+                Take the road less traveled
+              </p>
+              <h1 class="display-1 fw-bolder text-capitalize">
+                North Vancouver Island
+              </h1>
+              <button
+                type="button"
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Explore destinations
+              </button>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#hero-carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#hero-carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-    <section class="overview">
-      <div><i class="ti ti-plane"></i>3 amazing destinations</div>
-      <div><i class="ti ti-wallet"></i>Only pay 5% up front</div>
-      <div><i class="ti ti-heart-check"></i>1000's of customers</div>
-    </section>
-  </main>
+      <section class="overview">
+        <div><i class="ti ti-plane"></i>3 amazing destinations</div>
+        <div><i class="ti ti-wallet"></i>Only pay 5% up front</div>
+        <div><i class="ti ti-heart-check"></i>1000's of customers</div>
+      </section>
+    </main>
+  </body>
 </html>
