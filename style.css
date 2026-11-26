@@ -22,3 +22,11 @@
 #packages .col-lg:last-child .card-img-top {
   filter: brightness(0.7);
 }
+
+/* Adjust package images when cards stack */
+@media (max-width: 991.98px) {
+  .package-img {
+    height: 21.875rem;
+    object-fit: cover;
+  }
+}
