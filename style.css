@@ -17,3 +17,8 @@
   height: 180px;
   background-color: #d3dae1;
 }
+/* Darken hiking and kayaking package images */
+#packages .col-lg:first-child .card-img-top,
+#packages .col-lg:last-child .card-img-top {
+  filter: brightness(0.7);
+}
